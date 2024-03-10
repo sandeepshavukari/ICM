@@ -1,0 +1,51 @@
+/* Arts.css */
+.arts-container {
+    background-color: #f9f3e4;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .arts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .arts-item {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+  }
+  
+  .arts-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .arts-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .arts-item p {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Optional: Style for the heading */
+  .arts-container h1 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
